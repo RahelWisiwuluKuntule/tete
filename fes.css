@@ -1,0 +1,75 @@
+body
+{
+    background-color: wheat;
+}.you{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.527),rgba(8, 2, 6, 0.541)),url(img/about2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    border: 2px solid black;
+}
+h1{
+    font-size: 49px;
+    padding-top:110px ;
+    color: rgb(29, 16, 16);
+    text-align: center;
+    margin-top: 30px;
+    /* padding: 200px; */
+}
+.top h2 , .top h1{
+    color: wheat;
+    align-items: center;
+    text-align: center;
+}
+.top{
+   text-align: center;
+    
+}
+.dance{
+    box-sizing: border-box;
+    box-shadow: #333;
+    text-align: center;
+}
+img{
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(8, 1, 1, 0.616);
+    border: 2px solid black;
+    box-sizing: border-box;
+    height: 250px;
+    margin: 10px;
+    width: 400px;
+}
+.des{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 100;
+    font-style: inherit;
+    /* padding-left: 300px; */
+    text-align: center;
+}
+.logo{
+    margin-left: 160px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    margin-right: 130px;
+    list-style: none;
+}
+nav ul li a{
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+}
+footer{
+    font-size: 30px;
+    background-color: aliceblue;
+    text-align: center;
+}
