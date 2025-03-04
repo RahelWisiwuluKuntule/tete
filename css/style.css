@@ -214,7 +214,7 @@ input {
 }
 
 .nav__logo {
-	font-weight: var(--font-semi-bold);
+	font-weight: 25px;
 }
 
 .nav__toggle {
